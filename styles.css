@@ -51,11 +51,13 @@
       .center-grid {
         display: grid;
         place-items: center;
+        grid-template-columns: 1160px;
       }
 
       .centered {
           display: grid;
-          grid-template-columns: 50px;
+          grid-template-columns: 250px;
+      
        
       }
 
