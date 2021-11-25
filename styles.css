@@ -50,13 +50,13 @@
 
       .center-grid {
         display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
         place-items: center;
-        grid-template-columns: 1160px;
       }
 
       .centered {
-          display: grid;
-          grid-template-columns: 250px;
+          width: 200px;
       
        
       }
